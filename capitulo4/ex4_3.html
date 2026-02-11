@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taxa de entrega</title>
+</head>
+
+<body>
+  <script>
+    const bairro = prompt('Bairro de entrega:');
+    let taxaEntrega;
+    switch (bairro) {
+      case 'centro':
+        taxaEntrega = 5
+        break
+      case 'fragata':
+      case 'tres vendas':
+        taxaEntrega = 7
+        break
+      case 'laranjal':
+        taxaEntrega = 10
+        break
+      default:
+        taxaEntrega = 8
+    }
+    alert(`taxa R$: ${taxaEntrega.toFixed(2)}`)
+  </script>
+</body>
+
+</html>

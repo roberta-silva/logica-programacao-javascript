@@ -1,0 +1,23 @@
+body,
+h1,
+h3 {
+  margin: 0px;
+}
+img {
+  max-width: 400px;
+  border-radius: 12px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(199, 242, 217, 0.5);
+  font-family: sans-serif;
+}
+.conteudo {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}

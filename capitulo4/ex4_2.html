@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+  <title>Cálculo de Peso Ideal</title>
+</head>
+
+<body>
+  <div class="img">
+    <img src="./img/peso-ideal.png" alt="Uma ilustração em estilo de desenho com traços suaves e cores em tons pastel (verde, lilás, rosa e azul). A imagem mostra uma visão de cima (primeira pessoa) de um par de pés descalços sobre uma balança de banheiro mecânica de cor creme. A balança está posicionada sobre um piso de azulejos coloridos e o ponteiro vermelho da balança marca o número zero.">
+  </div>
+  <div class="conteudo">
+    <h1>Cálculo de Peso Ideal</h1>
+    <form>
+      <p>Nome:
+        <input type="text" id="inNome" required>
+      </p>
+      <p>Sexo:
+        <input type="radio" name="sexo" id="inMasculino" required>Masculino
+        <input type="radio" name="sexo" id="inFeminino" required>Feminino
+      </p>
+      <p>Altura:
+        <input type="number" min="0" step="0.01" id="inAltura" required>
+      </p>
+      <input type="submit" value="Calcular Peso Ideal">
+      <input type="reset" value="Limpar Campos">
+    </form>
+    <h3></h3>
+  </div>
+  <script src="./js/ex4_2.js"></script>
+</body>
+
+</html>
