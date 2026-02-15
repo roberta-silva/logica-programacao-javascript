@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Revenda de Veículos</title>
+</head>
+
+<body>
+  <img src="./img/revenda-veiculos.png" alt="Revenda de carros sombria sob a luz do luar.">
+  <div class="conteudo">
+    <h1>Revenda de Veículos</h1>
+    <form>
+      <p>Modelo:
+        <input type="text" id="inModelo" required autofocus>
+      </p>
+      <p>Preço R$:
+        <input type="number" step="0.01" id="inPreco" required>
+        <input type="submit" value="Adicionar">
+      </p>
+      <input type="button" id="btnListar" value="Listar Todos">
+      <input type="button" id="btnFiltrar" value="Filtrar por Preço">
+      <input type="button" id="btnSimular" value="Simular Promoção">
+    </form>
+    <pre></pre>
+  </div>
+  <script src="./js/ex6_3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Brinquedoteca</title>
+</head>
+
+<body>
+  <img src="./img/brinquedoteca.png" alt="">
+  <div class="conteudo">
+    <h1>Brinquedoteca</h1>
+    <form>
+      <p>Nome da Criança:
+        <input type="text" id="inNome" required autofocus>
+      </p>
+      <p>Idade:
+        <input type="number" id="inIdade" min="0" required>
+        <input type="submit" value="Adicionar">
+      </p>
+      <input type="button" value="Listar todos" id="btnListar">
+      <input type="button" value="Resumir por idade" id="btnResumir">
+    </form>
+    <pre></pre>
+  </div>
+  <script src="./js/ex6_4.js"></script>
+</body>
+
+</html>
