@@ -1,0 +1,26 @@
+body,
+h1,
+h3,
+p,
+pre {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #faf4e8;
+}
+img {
+  max-width: 400px;
+  border-radius: 20px;
+}
+p {
+  margin: 8px;
+}
+.conteudo {
+  display: grid;
+  gap: 12px;
+}
