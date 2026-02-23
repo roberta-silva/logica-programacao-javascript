@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>Controle de Serviços</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h1>Controle de Serviços</h1>
+        <form>
+          <p>
+            <label for="inServico">Serviço - Veículo: </label>
+            <input type="text" id="inServico" class="form-control" required autofocus>
+          </p>
+          <p>
+            <input type="submit" value="Adicionar Servico" class="btn btn-primary">
+            <input type="button" value="Executar Servico" id="btnExecutar" class="btn btn-warning">
+          </p>
+
+          <h3>Serviços Pendentes:
+            <span class="pendentes"></span>
+          </h3>
+          <p class="bg-danger text-white">&nbsp; Serviço em Execução:</p>
+          <h4 class="execucao"></h4>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./js/resp9_c.js"></script>
+</body>
+
+</html>
