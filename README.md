@@ -27,6 +27,12 @@ O livro aborda fundamentos essenciais de programação através da linguagem Jav
 ├── capitulo-03/          # Construção de algoritmos com Node.js
 ├── capitulo-04/          # Estruturas condicionais
 ├── capitulo-05/          # Estruturas de repetição
+├── capitulo-06/          # Vetores
+├── capitulo-07/          # Strings e datas
+├── capitulo-08/          # Funções e eventos
+├── capitulo-09/          # Persistência de dados com localStorage
+├── capitulo-10/          # Inserir elementos HTML via JavaScript
+├── capitulo-11/          # Desenvolvendo aplicações web
 ```
 
 ## Como Executar
@@ -63,4 +69,4 @@ Abra o arquivo HTML correspondente diretamente no navegador ou utilize a ferrame
 
 ⭐ **Status do Progresso:** 🔄 Em andamento
 
-**Última atualização:** Fevereiro 2026
+**Última atualização:** Março 2026
